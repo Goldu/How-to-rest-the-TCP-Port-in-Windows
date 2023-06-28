@@ -7,6 +7,11 @@
 
    netstat -ano | findstr :port_no
    ```
+if you don't find the PID id of your port no, you can use this command to find the PID
+   ```python
+
+   netstat -ano | findstr :port_no
+   ```
 Example
 ```python
 
