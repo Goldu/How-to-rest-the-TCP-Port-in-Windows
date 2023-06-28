@@ -5,7 +5,10 @@
    Identify the process associated with the port: Open the command prompt or terminal on your system and run the following command:
    ```python
 
-netstat -ano | findstr :2000
+   netstat -ano | findstr :port_no
+   ```
+Example
+```python
 
-print s
-```
+   netstat -ano | findstr :2000
+   ```
