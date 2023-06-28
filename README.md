@@ -37,5 +37,5 @@ Run the netstat command again to ensure that the port is no longer listed. Use t
    ```
 If the port is no longer in use, there should be no output.
 
-### Note: At this point, the port should be reset and available for use. 
+##### Note: At this point, the port should be reset and available for use. 
 If you're intending to use the port for a specific program or service, make sure to restart that program after resetting the port.
