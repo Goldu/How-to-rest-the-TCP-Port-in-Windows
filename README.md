@@ -9,7 +9,7 @@
    ```
 ![image](https://github.com/Goldu/How-to-rest-the-TCP-Port-in-Windows/assets/26148152/55c94b87-e7be-458b-a0d4-e515bbb930f5)
 
-if you don't find the PID id of your port no, you can use this command to find the PID
+if you don't find the PID id of your port no, you can use this command to find the PID. This will display the process ID (PID) of the program using the port.
    ```python
 
    netstat -ano | findstr :port_no
@@ -20,3 +20,11 @@ Example
    netstat -ano | findstr :2000
    ```
 ![image](https://github.com/Goldu/How-to-rest-the-TCP-Port-in-Windows/assets/26148152/ff42c8ff-d078-4af7-b6f0-e58ff99a3723)
+
+Terminate the process: Use the PID obtained from the previous step to stop the program or process using the port. In the command prompt or terminal, execute the following command:
+Example
+```python
+
+   taskkill /PID <PID> /F
+Replace <PID> with the actual process ID you obtained.
+   ```
