@@ -24,11 +24,14 @@ Example
 
 ## Terminate the process: 
 Use the PID obtained from the previous step to stop the program or process using the port. In the command prompt or terminal, execute the following command:
-Example
-```python
 
+```python
    taskkill /PID <PID> /F
 Replace <PID> with the actual process ID you obtained.
+   ```
+Example:
+```python
+   TASKKILL /PID 23340 /F
    ```
 ## Verify that the port is no longer in use:
 Run the netstat command again to ensure that the port is no longer listed. Use the command:
