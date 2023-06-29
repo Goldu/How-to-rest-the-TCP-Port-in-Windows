@@ -19,7 +19,6 @@ Example
 
    netstat -ano | findstr :2000
    ```
-![image](https://github.com/Goldu/How-to-rest-the-TCP-Port-in-Windows/assets/26148152/ff42c8ff-d078-4af7-b6f0-e58ff99a3723)
 ![image](https://github.com/Goldu/How-to-rest-the-TCP-Port-in-Windows/assets/26148152/cb4b1463-3670-4349-a638-ad8e6f1dd85a)
 
 
