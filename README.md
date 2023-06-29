@@ -40,6 +40,8 @@ Run the netstat command again to ensure that the port is no longer listed. Use t
    netstat -ano | findstr :2000
    ```
 If the port is no longer in use, there should be no output.
+![image](https://github.com/Goldu/How-to-rest-the-TCP-Port-in-Windows/assets/26148152/abd58631-9a19-46a2-aab9-a59eba163899)
+
 
 ##### Note: At this point, the port should be reset and available for use. 
 If you're intending to use the port for a specific program or service, make sure to restart that program after resetting the port.
